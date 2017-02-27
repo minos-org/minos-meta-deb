@@ -10,10 +10,8 @@ Vcs-Browser: https://github.com/minos-org/minos-meta-deb.git
 
 Package: minos-core
 Architecture: any
+Pre-Depends: git, tmux, vim-nox | vim-gnome | vim-gtk | vim-gtk3
 Depends: ${misc:Depends},
- git,
- vim-nox,
- tmux,
  mosh,
  wcd,
  htop,
@@ -109,7 +107,7 @@ Depends: ${misc:Depends},
  firefox-flashplugin,
  ubuntu-drivers-common,
  minos-desktop-settings,
-Description: Minos core system
+Description: Minos desktop system
  This is Minos, a Linux based OS with focus in simplicity, elegancy and
  stability, primarily targeted at advanced users and developers.
  .
