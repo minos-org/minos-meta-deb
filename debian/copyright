@@ -4,7 +4,7 @@ Upstream-Contact: https://github.com/minos-org/minos-meta-deb
 Source: https://github.com/minos-org/minos-meta-deb/archive/master.zip
 
 Files: *
-Copyright: Copyright (c) 2017, Javier P.L. <chilicuil@ubuntu.com>
+Copyright: Copyright (c) 2017, Javier López <m@javier.io>
 License: GPL-3
 
 License: GPL-3
